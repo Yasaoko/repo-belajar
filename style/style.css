@@ -22,13 +22,11 @@ body{
     float: left;
     font-family: courier;
     color: black;
-    background-color: gray;
 }
 
 .Menu {
     display: flex;
-    justify-content: center;
-    background-color: gray;
+    justify-content: right;
 }
 
 nav{
@@ -39,7 +37,8 @@ nav{
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: #ffffff;
+    background: #c2f6ff;
+    border: #252525 solid 1px;
 }
 
 nav ul{
@@ -64,7 +63,55 @@ nav ul li a:hover{
     text-decoration: underline;
 }
 
-.Poto{
+.home {
+    margin: 2.5rem auto;
+    text-align: center;
+    width: 100%;
+}
+
+.kurumi {
+    border-radius: 20px;
+    box-shadow: 8px 5px 0px #252525 ;
+}
+
+.desc {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.support-desc {
+    width: 80%;
+    margin: auto;
+}
+
+.btn {
     display: flex;
+    flex-direction: row;
+    gap: 5%;
     justify-content: center;
+    margin: 3rem;
+}
+
+.btn-one {
+    background-color: rgb(127, 225, 255);
+    padding: .5rem 3rem;
+    border-radius: 20px;
+    text-align: center;
+    border: #252525 solid 1px;
+}
+
+.btn-one:hover {
+    background-color: rgb(255, 70, 224);
+}
+
+.btn-two {
+    background-color: rgb(255, 136, 235);
+    padding: .5rem 3rem;
+    border-radius: 20px;
+    text-align: center;
+    border: #252525 solid 1px;
+}
+
+.btn-two:hover {
+    background-color: rgb(62, 210, 255);
 }
