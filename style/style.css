@@ -71,6 +71,7 @@ nav ul li a:hover{
 
 .kurumi {
     border-radius: 20px;
+    border: #252525 solid 1px;
     box-shadow: 8px 5px 0px #252525 ;
 }
 
@@ -102,6 +103,7 @@ nav ul li a:hover{
 
 .btn-one:hover {
     background-color: rgb(255, 70, 224);
+    box-shadow: 4px 5px 0px #252525;
 }
 
 .btn-two {
@@ -114,4 +116,5 @@ nav ul li a:hover{
 
 .btn-two:hover {
     background-color: rgb(62, 210, 255);
+    box-shadow: 4px 5px 0px #252525;
 }
